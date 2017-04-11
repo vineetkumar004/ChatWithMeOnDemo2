@@ -179,8 +179,10 @@ namespace ChatWithMeOnDemo2
                     image3.Add(ci3);
                     hc3.Images = image3;
 
-                    /* Attachment plAttachment = hc3.ToAttachment();
-                     reply.Attachments.Add(plAttachment);*/
+                   
+                     /* Other Way of Attaching 
+                        Attachment plAttachment = hc3.ToAttachment();
+                        reply.Attachments.Add(plAttachment);*/
 
                     reply.Attachments.Add(hc3.ToAttachment());
                     break;
